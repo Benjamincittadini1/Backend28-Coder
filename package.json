@@ -1,0 +1,36 @@
+{
+  "name": "desafio10--login",
+  "version": "1.0.0",
+  "description": "Login por formulario",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeciliaBPerdomo/Desafio10--LogIn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeciliaBPerdomo/Desafio10--LogIn/issues"
+  },
+  "homepage": "https://github.com/CeciliaBPerdomo/Desafio10--LogIn#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "flash": "^1.1.0",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.1",
+    "yargs": "^17.5.1"
+  }
+}
